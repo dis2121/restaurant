@@ -15,6 +15,26 @@ div#restaurant_list {
     background-color: white;
     border: solid 1px red;
     margin-bottom: 40px;
+    padding: 28px;
+}
+h2 {
+    margin-top: 0;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    margin-bottom: 8px;
+}
+.red{
+    color: red;
+}
+.bg-pink{
+    background-color: pink;
+}
+#restaurant_list p {
+    background-color: #f0f0f0;
+    padding: 5px;
 }
 div#food_list {
     height: 300px;
