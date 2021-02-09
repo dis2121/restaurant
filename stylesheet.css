@@ -23,7 +23,7 @@ h2 {
 ul {
     list-style-type: square;
 }
-li {
+#restaurant_list li {
     margin-bottom: 8px;
 }
 .red{
@@ -36,8 +36,32 @@ li {
     background-color: #f0f0f0;
     padding: 5px;
 }
-div#food_list {
-    height: 300px;
+div#food_list{
+    height: 410px;
     background-color: white;
     border: solid 1px blue;
+    margin-bottom: 40px;
+    padding: 28px;
+}
+#food_list ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+#food_list li {
+    margin-bottom: 8px;
+    border-bottom: dotted 1px blue;
+    border-left: solid 8px blue;
+    padding-left: 9px;
+}
+h3 {
+    text-align: center;
+    margin-top: 0;
+}
+p {
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+li.food {
+    border: none !important;
+    padding-left: 28px !important;
 }
